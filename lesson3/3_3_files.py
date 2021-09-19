@@ -3,6 +3,7 @@
 # Замените точки в тексте на восклицательные знаки
 # Сохраните результат в файл referat2.txt
 
+
 with open('referat.txt', 'r', encoding = 'utf-8') as infile:
     content = infile.read()
     print(f'Количество символов в тексте: {len(content)}')
